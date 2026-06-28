@@ -7,7 +7,6 @@ rejected immediately with **HTTP 429**.
 
 ## Spec
 | Parameter | Value |
-
 | Capacity  | 6 buffered requests |
 | Leak rate | 2 requests / second (steady) |
 | Overflow  | HTTP 429 "Rate Limit Exceeded" |
