@@ -1,0 +1,15 @@
+{
+  "name": "leaky-bucket-rate-limiter",
+  "version": "1.0.0",
+  "description": "SE-4 — Distributed Leaky Bucket Rate Limiter (capacity 6, leak 2/sec, HTTP 429 on overflow)",
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/demo.ts",
+    "server": "tsx src/server.ts",
+    "test": "node --import tsx --test src/**/*.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
